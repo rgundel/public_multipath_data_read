@@ -12,38 +12,38 @@ Modified:         			30-01-2024
 
 **Table of Contents**
 
-[Referencing the dataset	1](#_toc157539375)
+[Referencing the dataset	1](#_toc157543460)
 
-[Background reading for the dataset and its collection:	2](#_toc157539376)
+[Background reading for the dataset and its collection:	2](#_toc157543461)
 
-[Distributed radar fusion and recurrent networks for classification of continuous human activities	2](#_toc157539377)
+[Distributed radar fusion and recurrent networks for classification of continuous human activities	2](#_toc157543462)
 
-[Background reading for the used radar system:	2](#_toc157539378)
+[Background reading for the used radar system:	2](#_toc157543463)
 
-[Distributed radar fusion and recurrent networks for classification of continuous human activities	2](#_toc157539379)
+[Distributed radar fusion and recurrent networks for classification of continuous human activities	2](#_toc157543464)
 
-[Continuous human activity recognition for arbitrary directions with distributed radars	2](#_toc157539380)
+[Continuous human activity recognition for arbitrary directions with distributed radars	2](#_toc157543465)
 
-[Matlab read file	3](#_toc157539381)
+[Matlab read file	3](#_toc157543466)
 
-[Radar setup	3](#_toc157539382)
+[Radar setup	3](#_toc157543467)
 
-[The data file contains the following information:	4](#_toc157539383)
+[Statistics of the participants	5](#_toc157543468)
 
-[Folder description	4](#_toc157539384)
+[The data file contains the following information:	5](#_toc157543469)
 
-[File description	4](#_toc157539385)
+[Folder description	5](#_toc157543470)
 
-[Description and Notification	4](#_toc157539386)
+[The dataset comprises 45 folders, each containing range time, micro Doppler spectrogram, and range Doppler data for 14 participants. Each participant has performed three repetitions of 60 seconds of data recording.	5](#_toc157543471)
 
-[Plot the corresponding range maps with units and label vector	5](#_toc157539387)
+[File description	5](#_toc157543472)
 
-[The corresponding classes	5](#_toc157539388)
+[Description and Notification	7](#_toc157543473)
 
-[Range maps example	6](#_toc157539389)
+[Corresponding classes	11](#_toc157543474)
 
 
-## <a name="_toc157539375"></a>**Referencing the dataset**
+## <a name="_toc157543460"></a>**Referencing the dataset**
 Guendel, R.G., Fioranelli, F., Yarovoy, A.. *‘Dataset: Continuous Human Activities Utilizing Three Pulsed Radars Exploiting Multipath’*. (4TU.ResearchData, 2024 [Online]. doi: https://doi.org/10.4121/e1d6a078-9022-4f48-9aa6-e22389980fee.
 
 @misc{Guendel:Dataset:multipath, 
@@ -61,44 +61,44 @@ year = {2024},
 month={Feb} }
 
 
-## <a name="_toc157539376"></a>**Background reading for the dataset and its collection:** 
-### <a name="_toc157539377"></a>**Distributed radar fusion and recurrent networks for classification of continuous human activities**
+## <a name="_toc157543461"></a>**Background reading for the dataset and its collection:** 
+### <a name="_toc157543462"></a>**Distributed radar fusion and recurrent networks for classification of continuous human activities**
 R. G. Guendel, A. Yarovoy and F. Fioranelli: *Multipath Exploitation for Human Activity*
 
 *Recognition using a Radar Network*. in IEEE Transactions on Geoscience and Remote Sensing.
 
-![](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.001.jpeg)
-## <a name="_toc157539378"></a>**Background reading for the used radar system:** 
-### <a name="_toc157539379"></a>**Distributed radar fusion and recurrent networks for classification of continuous human activities**
+![](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.001.jpeg)
+## <a name="_toc157543463"></a>**Background reading for the used radar system:** 
+### <a name="_toc157543464"></a>**Distributed radar fusion and recurrent networks for classification of continuous human activities**
 Guendel, R.G., Fioranelli, F.,Yarovoy, A.: *Distributed radar fusion and recurrent networks for classification of continuous human activities*. IET Radar Sonar Navig. 1–18 (2022). <https://doi.org/10.1049/rsn2.12249> 
 
 [Link:](https://doi.org/10.1049/rsn2.12249) <https://doi.org/10.1049/rsn2.12249> 
 
-![](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.002.png)
-### <a name="_toc157539380"></a>**Continuous human activity recognition for arbitrary directions with distributed radars**
+![](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.002.png)
+### <a name="_toc157543465"></a>**Continuous human activity recognition for arbitrary directions with distributed radars**
 R. G. Guendel, M. Unterhorst, E. Gambi, F. Fioranelli and A. Yarovoy, "*Continuous human activity recognition for arbitrary directions with distributed radars,*" *2021 IEEE Radar Conference (RadarConf21)*, 2021, pp. 1-6, doi: 10.1109/RadarConf2147009.2021.9454972.
 
 [Link:](https://ieeexplore.ieee.org/document/9454972) <https://ieeexplore.ieee.org/document/9454972> 
 
-![](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.003.png)
-## <a name="_toc157539381"></a>**Matlab read file**
+![](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.003.png)
+## <a name="_toc157543466"></a>**Matlab read file**
 Reading the range time data files: 	main\_1\_rt\_processing\_ex.m 
 
 Reading the micro Doppler data files: 	main\_2\_mD\_spectrogram\_processing\_ex.m
 
 Reading the range Doppler data files: 	main\_3\_rD\_processing\_ex.m
-## <a name="_toc157539382"></a>**Radar setup** 
+## <a name="_toc157543467"></a>**Radar setup** 
 ![A diagram of a reflection wall
 
-Description automatically generated](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.004.jpeg)![A diagram of reflection wall
+Description automatically generated](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.004.jpeg)![A diagram of reflection wall
 
-Description automatically generated](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.005.png)
+Description automatically generated](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.005.png)
 
 *Figure 1: (left) A sketch of the room layout shows three radars, with two of them, R1 and R2, capable of benefiting from multipaths. R3 is positioned on the reflection wall and provides the range for calculating the target location 𝑥̃ using trilateration. (right) Geometrical relationships are illustrated to show the multipath ranges, denoted as 𝑟₁, 𝑟'₁, and 𝑟₂* 
 
 ![A room with a screen and a mirror
 
-Description automatically generated with medium confidence](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.006.jpeg)
+Description automatically generated with medium confidence](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.006.jpeg)
 
 *Figure 2: Experimental setup showing the radar nodes circled in red and the reflector in the green rectangle.*
 
@@ -120,12 +120,12 @@ PRI/PRF: 			8.2ms / 122Hz
 
 Antennae: 			Omnidirectional broadband antennas
 
-![](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.007.png)
+![](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.007.png)
 
 *Figure 3: The PulsON P410 - Time Domain (Humatics) radar.*
 
 
-## **Statistics of the participants**
+## <a name="_toc157543468"></a>**Statistics of the participants**
 
 |**Participant**|**Year of birth**|**Age**|**Height**|**Weight**|**Gender**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -146,10 +146,10 @@ Antennae: 			Omnidirectional broadband antennas
 |std|4\.737|4\.737|9\.788|14\.663||
 |mean|1994\.857|27\.143|170\.571|67\.643||
 
-## <a name="_toc157539383"></a>**The data file contains the following information:** 
-### <a name="_toc157539384"></a>**Folder description**
-### <a name="_toc157539385"></a>The dataset comprises 45 folders, each containing range time, micro Doppler spectrogram, and range Doppler data for 14 participants. Each participant has performed three repetitions of 60 seconds of data recording.
-### **File description**
+## <a name="_toc157543469"></a>**The data file contains the following information:** 
+### <a name="_toc157543470"></a>**Folder description**
+### <a name="_toc157543471"></a>The dataset comprises 45 folders, each containing range time, micro Doppler spectrogram, and range Doppler data for 14 participants. Each participant has performed three repetitions of 60 seconds of data recording.
+### <a name="_toc157543472"></a>**File description**
 Explanation: 
 
 Index number 01 … 14 associated to each of the 14 participants
@@ -158,21 +158,21 @@ Index number 0 is a background noise measurement of the room without a participa
 
 ![A group of colorful lines
 
-Description automatically generated with medium confidence](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.008.png)
+Description automatically generated with medium confidence](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.008.png)
 
 *Figure 5: 1\_range\_time\_maps\_labeled.zip … is the range time data of participant 1*
 
 ![A screenshot of a computer graphics
 
-Description automatically generated](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.009.png)
+Description automatically generated](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.009.png)
 
 *Figure 6: 1\_microDoppler\_spectrograms\_labeled.zip … is the micro Doppler data of participant 1*
 
 ![A group of images of a person's body
 
-Description automatically generated](Aspose.Words.f6d63e88-3007-4f16-b825-be462e14e083.010.png)
+Description automatically generated](Aspose.Words.9f06f7f7-f309-455b-a8b7-de5e98c90c18.010.png)
 *Figure 4: 1\_rangeDoppler\_maps\_labeled.zip … is the range Doppler data of participant 1*
-### <a name="_toc157539386"></a>**Description and Notification**
+### <a name="_toc157543473"></a>**Description and Notification**
 
 |**Participant**|**File**|**Sub file**|
 | :-: | :-: | :-: |
@@ -309,8 +309,8 @@ Description automatically generated](Aspose.Words.f6d63e88-3007-4f16-b825-be462e
 |14|'14\_rangeDoppler\_maps\_labeled.zip'|'14\_3\_rangeDoppler\_maps\_labeled.mat'|
 |14|'14\_range\_time\_maps\_labeled.zip'|'14\_3\_range\_time\_maps\_labeled.mat'|
 ###
-<a name="_toc157539388"></a>
-## **Corresponding classes**
+
+## <a name="_toc157543474"></a>**Corresponding classes**
 All classes in the label vector are associated as:
 
 |**Labels**|**Label Names**|
