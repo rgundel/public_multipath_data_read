@@ -1,5 +1,7 @@
 **README** 
 
+[![DOI](https://zenodo.org/badge/750539335.svg)](https://zenodo.org/doi/10.5281/zenodo.10594434)
+
 Dataset: Continuous Human Activities Utilizing Three Pulsed Radars Exploiting Multipath
 
 Responsible Author:		Ronny Gerhard Guendel
